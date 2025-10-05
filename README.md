@@ -65,8 +65,200 @@ const species = [
     ],
     image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tui_in_New_Zealand.jpg",
     attribution: "CC BY 2.0, Wikimedia Commons"
-  }
-  // ... continue to 100 species
+  },
+  {
+    english: "Kea",
+    maori: "Kea",
+    facts: [
+      "Found in the South Island's alpine regions",
+      "Endangered due to predation and human impact",
+      "Omnivorous: feeds on plants, insects, and carrion",
+      "Known for its curiosity and intelligence"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Kea_Parrot.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Takahe",
+    maori: "Takahē",
+    facts: [
+      "Flightless bird found in alpine grasslands",
+      "Once thought extinct, now critically endangered",
+      "Herbivorous: feeds on native grasses and herbs",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Takahe_Parrot.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Fantail",
+    maori: "Pīwakawaka",
+    facts: [
+      "Small insectivorous bird found throughout New Zealand",
+      "Known for its distinctive tail and acrobatic flight",
+      "Common in forests, gardens, and parks",
+      "Feeds on insects caught mid-air"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Fantail_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Bellbird",
+    maori: "Korimako",
+    facts: [
+      "Native to New Zealand forests",
+      "Feeds on nectar, insects, and fruits",
+      "Known for its melodious song",
+      "Plays a role in pollination"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bellbird_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Morepork",
+    maori: "Ruru",
+    facts: [
+      "Nocturnal owl found in forests across New Zealand",
+      "Feeds on insects, birds, and small mammals",
+      "Known for its distinctive 'more-pork' call",
+      "Plays a role in controlling insect populations"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Morepork_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Rock Wren",
+    maori: "Pīhoihoi",
+    facts: [
+      "Small, ground-dwelling bird found in alpine regions",
+      "Feeds on insects and spiders",
+      "Known for its cryptic plumage",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rock_Wren_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Yellow-eyed Penguin",
+    maori: "Hoiho",
+    facts: [
+      "Found on the southeastern coast of New Zealand",
+      "One of the rarest and most endangered penguins",
+      "Feeds on fish and squid",
+      "Threatened by habitat degradation and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Yellow-eyed_Penguin_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Little Blue Penguin",
+    maori: "Korora",
+    facts: [
+      "Smallest species of penguin, found along New Zealand's coastlines",
+      "Feeds on fish and squid",
+      "Known for its distinctive blue plumage",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Little_Blue_Penguin_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Great Crested Grebe",
+    maori: "Kāmana",
+    facts: [
+      "Large water bird found in lakes and wetlands",
+      "Feeds on fish and aquatic invertebrates",
+      "Known for its elaborate mating display",
+      "Plays a role in controlling fish populations"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Great_Crested_Grebe_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Australasian Bittern",
+    maori: "Matuku",
+    facts: [
+      "Large, secretive heron found in wetlands",
+      "Feeds on fish, frogs, and insects",
+      "Known for its booming call during breeding season",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Australasian_Bittern_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "South Island Kaka",
+    maori: "Kākā",
+    facts: [
+      "Forest parrot found in the South Island",
+      "Feeds on fruits, seeds, and nectar",
+      "Known for its playful and inquisitive nature",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5b/South_Island_Kaka_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "North Island Kaka",
+    maori: "Kākā",
+    facts: [
+      "Forest parrot found in the North Island",
+      "Feeds on fruits, seeds, and nectar",
+      "Known for its playful and inquisitive nature",
+      "Threatened by habitat loss and introduced predators"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7d/North_Island_Kaka_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Shining Cuckoo",
+    maori: "Pīpīwharauroa",
+    facts: [
+      "Migratory bird found in New Zealand during summer",
+      "Known for its distinctive 'pīpīwharauroa' call",
+      "Feeds on caterpillars and insects",
+      "Plays a role in controlling insect populations"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shining_Cuckoo_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Long-tailed Cuckoo",
+    maori: "Pōpokotea",
+    facts: [
+      "Migratory bird found in New Zealand during summer",
+      "Feeds on caterpillars and insects",
+      "Known for its distinctive 'pōpokotea' call",
+      "Plays a role in controlling insect populations"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Long-tailed_Cuckoo_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "White-faced Heron",
+    maori: "Ardea novaehollandiae",
+    facts: [
+      "Large wader found in wetlands and coastal areas",
+      "Feeds on fish, frogs, and insects",
+      "Known for its graceful flight and hunting technique",
+      "Plays a role in controlling fish and insect populations"
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/White-faced_Heron_in_New_Zealand.jpg",
+    attribution: "CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+    english: "Australasian Shoveler",
+    maori: "Anas rhynchotis",
+    facts: [
+      "Dabbling duck found in wetlands and lakes",
+      "Feeds on aquatic plants and invertebrates",
+      "Known for its distinctive spatula-shaped bill",
+      "Plays a role in controlling aquatic plant populations"
+    ],
+    image: "https
+::contentReference[oaicite:0]{index=0}
+ 
+
 ];
 
 // ---------------------------
