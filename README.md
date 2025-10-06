@@ -255,7 +255,7 @@ const species = [
       "Known for its distinctive spatula-shaped bill",
       "Plays a role in controlling aquatic plant populations"
     ],
-    image: "https
+  image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Australasian_Shoveler_in_New_Zealand.jpg",
 ::contentReference[oaicite:0]{index=0}
  
 
