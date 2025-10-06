@@ -246,19 +246,18 @@ const species = [
     image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/White-faced_Heron_in_New_Zealand.jpg",
     attribution: "CC BY-SA 3.0, Wikimedia Commons"
   },
-  {
-    english: "Australasian Shoveler",
-    maori: "Anas rhynchotis",
-    facts: [
-      "Dabbling duck found in wetlands and lakes",
-      "Feeds on aquatic plants and invertebrates",
-      "Known for its distinctive spatula-shaped bill",
-      "Plays a role in controlling aquatic plant populations"
-    ],
+ {
+  english: "Australasian Shoveler",
+  maori: "Anas rhynchotis",
+  facts: [
+    "Dabbling duck found in wetlands and lakes",
+    "Feeds on aquatic plants and invertebrates",
+    "Known for its distinctive spatula-shaped bill",
+    "Plays a role in controlling aquatic plant populations"
+  ],
   image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Australasian_Shoveler_in_New_Zealand.jpg",
-::contentReference[oaicite:0]{index=0}
- 
-
+  attribution: "CC BY-SA 3.0, Wikimedia Commons"
+}
 ];
 
 // ---------------------------
