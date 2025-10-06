@@ -317,7 +317,7 @@ if(dayIndex === -1){
         factsDiv.innerHTML = "<strong>Incorrect! The correct answer is " + animal.english + " (" + animal.maori + ")</strong><br>" + animal.facts.join("<br>") + "<br><em>" + animal.attribution + "</em>";
         updateStreak();
       }
-    };
+    }
     optionsDiv.appendChild(btn);
   });
 }
